@@ -126,18 +126,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-
-                {/* {
-                    user ?
-                        <div className="md:flex md:justify-center md:items-center md:gap-2">
-                            <p>Welcome,{user.displayName}</p>
-                            <button onClick={handleSignOut} className="btn">Log out</button>
-                        </div>
-                        :
-                        <Link to='/login'>
-                            <button className="btn bg-yellow-400 font-bold">Login</button>
-                        </Link>
-                } */}
+ 
 
             </div>
         </div>

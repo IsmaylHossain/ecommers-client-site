@@ -17,6 +17,8 @@ const Banner = () => {
                 <img src="https://i.ibb.co/MNLJMFc/top-view-mandala-concept.jpg
 " className="w-full" />
 
+
+
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" className="btn btn-circle">❮</a>
                     <a href="#slide3" className="btn btn-circle">❯</a>
