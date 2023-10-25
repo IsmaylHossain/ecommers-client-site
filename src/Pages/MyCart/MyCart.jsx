@@ -44,13 +44,15 @@ const MyCart = () => {
             })
     }
 
+
+
     return (
         <div>
             <Navbar></Navbar>      
                 <div className="overflow-x-auto ">
                 <table className="table">
                     
-                    
+
                     <thead>
                         <tr>
                             <th></th>
@@ -74,10 +76,6 @@ const MyCart = () => {
                     </tbody>
                 </table>
             </div> 
-
-
-
-
 
         </div>
     );
