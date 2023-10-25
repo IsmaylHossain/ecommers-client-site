@@ -6,12 +6,16 @@ import { AuthContext } from "../../Providers/AuthProvider";
 import swal from "sweetalert2";
 import { FcGoogle } from 'react-icons/fc';
 
+
+
 const Login = () => {
     const {logIn,googleLogin} = useContext(AuthContext)
     const [logInErr, setLogInErr] = useState('');
     const location = useLocation()
     const navigate = useNavigate()
 
+
+    
     const handleLogin = e => {
         e.preventDefault()
         // console.log(e.currentTarget)
