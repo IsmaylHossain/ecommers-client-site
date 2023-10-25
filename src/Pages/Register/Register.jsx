@@ -8,6 +8,8 @@ import { updateProfile } from "firebase/auth";
 const Register = () => {
 
 
+
+    
     const {createUser} = useContext(AuthContext)
     const [regError,setRegError] = useState('')
     const [segSuccess,setRegSuccess] = useState('')

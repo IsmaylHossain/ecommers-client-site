@@ -3,6 +3,8 @@ import Navbar from "../Common_Pages/Navbar/Navbar";
 import { useLoaderData, useParams } from "react-router-dom";
 import ViewDetailsCard from "./ViewDetailsCard";
 
+
+
 const ViewDetails = () => {
     const [product,setProduct] = useState();
     const {_id} = useParams();
