@@ -77,6 +77,7 @@ const MyCart = () => {
                 </table>
             </div> 
 
+
         </div>
     );
 };
