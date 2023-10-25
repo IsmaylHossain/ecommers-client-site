@@ -1,0 +1,33 @@
+  [
+    {
+      "id": 1,
+      "brand": "Apple",
+      "brand_logo": "https://i.ibb.co/gFx0LvZ/apple-logo.jpg"
+    },
+    {
+      "id": 2,
+      "brand": "Samsung",
+      "brand_logo": "https://i.ibb.co/YTBHXjL/samsung-logo.jpg"
+    },
+    {
+      "id": 3,
+      "brand": "Sony",
+      "brand_logo": "https://i.ibb.co/BqvnjGf/Sony-Logo.jpg"
+    },
+    {
+      "id": 4,
+      "brand": "Google",
+      "brand_logo": "https://i.ibb.co/svDC304/google-logo.png"
+    },
+    {
+      "id": 5,
+      "brand": "Vivo",
+      "brand_logo": "https://i.ibb.co/MRJKn2T/Vivo-Logo.jpg"
+    },
+    {
+      "id": 6,
+      "brand": "Huawei",
+      "brand_logo": "https://i.ibb.co/Vwqry9m/huawei.jpg"
+    }
+  ]
+ 
