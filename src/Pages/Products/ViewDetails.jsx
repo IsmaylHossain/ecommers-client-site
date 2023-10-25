@@ -21,6 +21,8 @@ const ViewDetails = () => {
                 <ViewDetailsCard product = {product}></ViewDetailsCard>
             </div>
             
+
+            
         </div>
     );
 };
