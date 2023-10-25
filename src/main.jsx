@@ -57,21 +57,21 @@ const router = createBrowserRouter([
         element: <PrivateRoute>
           <Products></Products>
         </PrivateRoute>,
-        loader: ()=> fetch('http://localhost:5000/product'),
+        loader: ()=> fetch('https://y-juurvlw6s-ismaylhossain.vercel.app/product'),
       },
       {
         path: '/details/:_id',
         element:<PrivateRoute>
           <ViewDetails></ViewDetails>
         </PrivateRoute>,
-        loader: ()=> fetch('http://localhost:5000/product')
+        loader: ()=> fetch('https://y-juurvlw6s-ismaylhossain.vercel.app/product')
       },
       {
         path: '/updateProduct/:id',
         element: <PrivateRoute>
           <UpdateProduct></UpdateProduct>
         </PrivateRoute>,
-        loader: ({params})=> fetch(`http://localhost:5000/product/${params.id}`)
+        loader: ({params})=> fetch(`https://y-juurvlw6s-ismaylhossain.vercel.app/product/${params.id}`)
       }
     ]
   },

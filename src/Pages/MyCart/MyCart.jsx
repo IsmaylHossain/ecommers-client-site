@@ -12,7 +12,7 @@ const MyCart = () => {
      
 
     useEffect(() => {
-        fetch(`http://localhost:5000/cart/${user.email}`)
+        fetch(`https://y-juurvlw6s-ismaylhossain.vercel.app/cart/${user.email}`)
         .then(res => res.json())
         .then(data => {
             console.log("this is data",data)
@@ -25,7 +25,7 @@ const MyCart = () => {
  
 
     const handleCartDelete = id => {
-        fetch(`http://localhost:5000/cart/${id}`, {
+        fetch(`https://y-juurvlw6s-ismaylhossain.vercel.app/cart/${id}`, {
             method: "DELETE"
         }).then(res => res.json())
             .then(data => {
